@@ -1,0 +1,164 @@
+body {
+    background-color: black;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:plum;
+}
+
+h2{
+    color:purple;
+}
+
+h3{
+    color:rgb(166, 87, 166);
+}
+
+h4{
+    color:rgb(158, 103, 158);
+}
+
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.draggable-list {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.draggable-item {
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #aaa;
+    cursor: grab;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+#clients{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.textCenter{
+    text-align: center;
+}
+#tJapa{
+    background-color: rgb(41, 42, 41);
+    padding: 15px;
+}
+#tCurr{
+    background-color: rgb(41, 42, 41);
+    padding: 15px;
+}
+#tVending{
+    background-color: rgb(41, 42, 41);
+    padding: 15px;
+}
+#tCar{
+    background-color: rgb(41, 42, 41);
+    padding: 15px;
+}
+a.projects{
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(138, 138, 138);
+}
+.img-icon{
+    width: 45px;
+    height: 45px;
+}
+.img-iconn{
+    width: 70px;
+    height: 45px;
+}
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+    margin-left: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
+#menu{
+    text-align: right;
+    margin-top: 49px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.header{
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    color: white;
+    margin-top: 40px;
+    margin-top: 40px;
+}
+.header:hover{
+    font-size: 40px;
+}
+a:hover.servics{
+    color:plum;
+}
+#services .textCenter h3{
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+
